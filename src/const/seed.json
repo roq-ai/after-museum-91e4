@@ -1,0 +1,2622 @@
+[
+  {
+    "owner": [
+      {
+        "id": "8a4be9be-cb52-485d-a9c0-893a9836a86b",
+        "ownership_date": "2023-10-05T12:46:03.805Z",
+        "ownership_duration": 30539,
+        "ownership_status": "Private",
+        "created_at": "2023-10-05T08:08:25.252Z",
+        "updated_at": "2023-10-04T19:17:35.692Z",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c7361a5d-231f-4ff6-979e-b9284b40354d",
+        "ownership_date": "2023-10-05T00:39:44.590Z",
+        "ownership_duration": 2641,
+        "ownership_status": "Public",
+        "created_at": "2023-10-05T00:39:55.047Z",
+        "updated_at": "2023-10-05T02:35:46.879Z",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "82f8da33-1961-4eb7-9dcb-45885285ef62",
+        "ownership_date": "2023-10-05T04:20:30.517Z",
+        "ownership_duration": 19013,
+        "ownership_status": "Non-profit",
+        "created_at": "2023-10-05T01:34:27.564Z",
+        "updated_at": "2023-10-04T22:11:00.548Z",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1d641b34-07a1-4f82-994f-ded5ecd88552",
+        "ownership_date": "2023-10-05T03:03:07.851Z",
+        "ownership_duration": 14927,
+        "ownership_status": "Government-owned",
+        "created_at": "2023-10-05T10:03:09.745Z",
+        "updated_at": "2023-10-05T09:19:08.536Z",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d6cef4c2-4e2f-487d-a123-e55a38774ef2",
+        "ownership_date": "2023-10-04T21:43:22.442Z",
+        "ownership_duration": 43801,
+        "ownership_status": "Corporate",
+        "created_at": "2023-10-05T01:20:59.742Z",
+        "updated_at": "2023-10-04T18:05:45.986Z",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "exhibit": [
+      {
+        "id": "7264023a-4038-49d9-85de-fcc1a93ae23a",
+        "name": "Ancient Civilizations",
+        "origin": "Egypt",
+        "age": 59799,
+        "description": "Explore the wonders of ancient civilizations",
+        "created_at": "2023-10-05T08:12:00.533Z",
+        "updated_at": "2023-10-04T17:31:54.846Z",
+        "museum_id": "main_entity_pk"
+      },
+      {
+        "id": "4149d8d6-9530-48fe-ad1f-48097eb6727e",
+        "name": "Contemporary Art",
+        "origin": "France",
+        "age": 25412,
+        "description": "Experience the beauty of contemporary art",
+        "created_at": "2023-10-04T14:32:54.458Z",
+        "updated_at": "2023-10-05T08:57:17.988Z",
+        "museum_id": "main_entity_pk"
+      },
+      {
+        "id": "cdc61995-53ce-42fd-b737-a25a1aa6caf1",
+        "name": "Space Exploration",
+        "origin": "United States",
+        "age": 49377,
+        "description": "Learn about the mysteries of space",
+        "created_at": "2023-10-05T12:43:56.136Z",
+        "updated_at": "2023-10-04T13:58:14.734Z",
+        "museum_id": "main_entity_pk"
+      },
+      {
+        "id": "0d5582be-3589-4bcf-89e4-5ea6c8b926ee",
+        "name": "Dinosaur Fossils",
+        "origin": "China",
+        "age": 53339,
+        "description": "Discover the world of dinosaurs",
+        "created_at": "2023-10-05T12:58:42.136Z",
+        "updated_at": "2023-10-05T13:12:55.336Z",
+        "museum_id": "main_entity_pk"
+      },
+      {
+        "id": "e76835db-d26d-4f55-b7b6-d15e4f1ac6c8",
+        "name": "Innovations Through Time",
+        "origin": "Greece",
+        "age": 48158,
+        "description": "Witness the evolution of technology",
+        "created_at": "2023-10-04T13:30:46.413Z",
+        "updated_at": "2023-10-05T09:46:21.051Z",
+        "museum_id": "main_entity_pk"
+      }
+    ],
+    "visitor": [
+      {
+        "id": "929a4639-d2ec-471c-9e67-5d0312348049",
+        "visit_date": "2023-10-04T14:00:45.016Z",
+        "feedback": "Amazing museum! Loved every exhibit.",
+        "rating": 23333,
+        "created_at": "2023-10-05T07:29:14.731Z",
+        "updated_at": "2023-10-04T22:33:08.930Z",
+        "exhibit_id": "4149d8d6-9530-48fe-ad1f-48097eb6727e",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "de6cf70e-4cb5-40ca-92c0-5e062798ff38",
+        "visit_date": "2023-10-04T19:04:02.171Z",
+        "feedback": "Great experience. Highly recommended.",
+        "rating": 81348,
+        "created_at": "2023-10-04T19:09:48.370Z",
+        "updated_at": "2023-10-05T08:51:01.989Z",
+        "exhibit_id": "7264023a-4038-49d9-85de-fcc1a93ae23a",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "17fd6c0e-8f62-4fb6-9af7-4d9e9d05328d",
+        "visit_date": "2023-10-05T07:06:16.180Z",
+        "feedback": "The museum staff was very knowledgeable.",
+        "rating": 51382,
+        "created_at": "2023-10-04T18:53:31.160Z",
+        "updated_at": "2023-10-04T21:52:37.149Z",
+        "exhibit_id": "7264023a-4038-49d9-85de-fcc1a93ae23a",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "892a7572-8bec-45eb-9948-423e67801902",
+        "visit_date": "2023-10-04T17:37:13.261Z",
+        "feedback": "The exhibits were informative and engaging.",
+        "rating": 30160,
+        "created_at": "2023-10-04T21:10:57.049Z",
+        "updated_at": "2023-10-04T13:55:56.358Z",
+        "exhibit_id": "4149d8d6-9530-48fe-ad1f-48097eb6727e",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "310beca7-c4af-4d44-8558-f516eddb5479",
+        "visit_date": "2023-10-05T05:37:12.224Z",
+        "feedback": "A must-visit for all history enthusiasts.",
+        "rating": 25756,
+        "created_at": "2023-10-05T12:33:34.654Z",
+        "updated_at": "2023-10-05T04:12:49.886Z",
+        "exhibit_id": "4149d8d6-9530-48fe-ad1f-48097eb6727e",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "curator": [
+      {
+        "id": "e704c79e-86e9-4a78-97ac-3ddc383150a7",
+        "specialization": "Ancient History",
+        "experience": 79127,
+        "biography": "A passionate curator dedicated to preserving history",
+        "created_at": "2023-10-05T09:18:28.514Z",
+        "updated_at": "2023-10-05T08:35:10.764Z",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9b403ea2-b1e2-4e17-a464-5db9a30eb13a",
+        "specialization": "Modern Art",
+        "experience": 93897,
+        "biography": "An expert in contemporary art with a keen eye for talent",
+        "created_at": "2023-10-04T23:06:33.902Z",
+        "updated_at": "2023-10-04T19:24:31.228Z",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6ba424f4-e919-4eac-8393-931d9d0d0727",
+        "specialization": "Space Science",
+        "experience": 48613,
+        "biography": "A renowned scientist specializing in space exploration",
+        "created_at": "2023-10-05T08:30:43.285Z",
+        "updated_at": "2023-10-05T00:41:33.942Z",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "515c08d5-7050-4d18-b7ae-d7b0d766dc4b",
+        "specialization": "Paleontology",
+        "experience": 66032,
+        "biography": "A paleontologist with a deep fascination for dinosaurs",
+        "created_at": "2023-10-05T13:07:04.779Z",
+        "updated_at": "2023-10-04T15:27:51.161Z",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0da7bc31-7158-45ef-a321-b8cefab460c5",
+        "specialization": "Technological Innovations",
+        "experience": 59329,
+        "biography": "A technology enthusiast driving innovation in the museum industry",
+        "created_at": "2023-10-04T23:59:07.534Z",
+        "updated_at": "2023-10-04T22:30:14.373Z",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "6c2a00e6-a299-4384-8804-a3a6c5c5e679",
+        "email": "Albert17@roq.tech",
+        "firstName": "Alvera",
+        "lastName": "McDermott",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1221.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b303828a-28ee-454d-aaee-0a063a028b20",
+        "email": "Avery_Bernhard54@roq.tech",
+        "firstName": "Lew",
+        "lastName": "Renner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/681.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "79ce7bea-dfc5-4848-a14c-f94eabc1a2a1",
+        "email": "Angeline_Waters@roq.tech",
+        "firstName": "Margarette",
+        "lastName": "Lesch",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/192.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "03b6eae2-07ff-4cbc-a7e6-ffc0d1b17657",
+        "email": "Randal.Purdy@roq.tech",
+        "firstName": "Brock",
+        "lastName": "Kemmer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/105.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "1dd35425-2d1e-4585-98af-966e12f7f8d3",
+        "email": "Josefa.Rosenbaum@roq.tech",
+        "firstName": "Rollin",
+        "lastName": "King",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/969.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "owner": [
+      {
+        "id": "74de8f50-0de6-4af4-9684-5180a8fc1782",
+        "ownership_date": "2023-10-05T11:27:53.612Z",
+        "ownership_duration": 10785,
+        "ownership_status": "Private",
+        "created_at": "2023-10-04T15:52:28.119Z",
+        "updated_at": "2023-10-04T22:09:30.865Z",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "527d13ac-fff7-486c-82a2-acd2f0bd15a7",
+        "ownership_date": "2023-10-05T04:06:35.963Z",
+        "ownership_duration": 39787,
+        "ownership_status": "Public",
+        "created_at": "2023-10-05T05:02:47.375Z",
+        "updated_at": "2023-10-04T22:53:55.875Z",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b1a2b73d-6a92-43ff-be5a-c411a5f3d016",
+        "ownership_date": "2023-10-05T08:53:36.483Z",
+        "ownership_duration": 24524,
+        "ownership_status": "Non-profit",
+        "created_at": "2023-10-05T02:40:20.519Z",
+        "updated_at": "2023-10-05T08:44:00.947Z",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f6304477-3aff-4a54-bc86-582e77405e71",
+        "ownership_date": "2023-10-04T23:17:41.569Z",
+        "ownership_duration": 20096,
+        "ownership_status": "Government",
+        "created_at": "2023-10-04T19:46:35.005Z",
+        "updated_at": "2023-10-04T22:31:50.437Z",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a86e92db-ffa3-4dcc-b1ae-f0b1a4191225",
+        "ownership_date": "2023-10-04T21:11:18.899Z",
+        "ownership_duration": 89251,
+        "ownership_status": "Corporate",
+        "created_at": "2023-10-04T16:05:12.504Z",
+        "updated_at": "2023-10-05T05:25:20.270Z",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "exhibit": [
+      {
+        "id": "a4807e2c-6a66-4232-ae33-020f0564714f",
+        "name": "Ancient Civilizations",
+        "origin": "Egypt",
+        "age": 99683,
+        "description": "Explore the mysteries of ancient civilizations",
+        "created_at": "2023-10-04T17:31:29.697Z",
+        "updated_at": "2023-10-04T20:32:26.994Z",
+        "museum_id": "main_entity_pk"
+      },
+      {
+        "id": "c07de71b-f0d8-427d-9995-69b5c80ac4ae",
+        "name": "Space Exploration",
+        "origin": "NASA",
+        "age": 27253,
+        "description": "Learn about the wonders of space exploration",
+        "created_at": "2023-10-05T09:11:11.521Z",
+        "updated_at": "2023-10-05T11:41:11.445Z",
+        "museum_id": "main_entity_pk"
+      },
+      {
+        "id": "0016a8fc-e150-4d67-9cc5-773b2610d34a",
+        "name": "Underwater World",
+        "origin": "Great Barrier Reef",
+        "age": 68939,
+        "description": "Dive into the depths of the underwater world",
+        "created_at": "2023-10-05T06:31:50.542Z",
+        "updated_at": "2023-10-04T15:14:15.309Z",
+        "museum_id": "main_entity_pk"
+      },
+      {
+        "id": "953b70ef-4f54-483b-8d20-4c80b332d767",
+        "name": "Inventions and Innovations",
+        "origin": "Silicon Valley",
+        "age": 30220,
+        "description": "Discover the latest inventions and innovations",
+        "created_at": "2023-10-05T11:11:04.923Z",
+        "updated_at": "2023-10-04T22:37:52.485Z",
+        "museum_id": "main_entity_pk"
+      },
+      {
+        "id": "32302d4e-74ab-4eee-8e91-a31cdaa3dd31",
+        "name": "Wildlife Photography",
+        "origin": "African Safari",
+        "age": 27179,
+        "description": "Admire stunning wildlife photography",
+        "created_at": "2023-10-05T05:55:17.722Z",
+        "updated_at": "2023-10-05T03:08:35.795Z",
+        "museum_id": "main_entity_pk"
+      }
+    ],
+    "visitor": [
+      {
+        "id": "15723562-d0eb-4dc7-a8eb-7fe67960e4a2",
+        "visit_date": "2023-10-05T09:24:27.525Z",
+        "feedback": "Amazing experience! Highly recommended.",
+        "rating": 41151,
+        "created_at": "2023-10-04T14:05:18.960Z",
+        "updated_at": "2023-10-04T21:13:34.342Z",
+        "exhibit_id": "a4807e2c-6a66-4232-ae33-020f0564714f",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "16057cdb-cc3b-4d8e-a4c0-42649a776a9a",
+        "visit_date": "2023-10-04T17:14:51.061Z",
+        "feedback": "Great museum with informative exhibits.",
+        "rating": 53454,
+        "created_at": "2023-10-04T16:48:03.791Z",
+        "updated_at": "2023-10-05T03:03:33.977Z",
+        "exhibit_id": "0016a8fc-e150-4d67-9cc5-773b2610d34a",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9fc3dc98-5269-4b5f-875c-7cd91d15ee9e",
+        "visit_date": "2023-10-04T20:24:26.201Z",
+        "feedback": "Loved the interactive displays.",
+        "rating": 61334,
+        "created_at": "2023-10-05T00:25:09.655Z",
+        "updated_at": "2023-10-04T18:43:52.474Z",
+        "exhibit_id": "c07de71b-f0d8-427d-9995-69b5c80ac4ae",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "20210dd2-a91a-4017-88d2-f4305e115abb",
+        "visit_date": "2023-10-05T01:14:16.984Z",
+        "feedback": "Friendly staff and beautiful location.",
+        "rating": 55917,
+        "created_at": "2023-10-04T18:49:59.800Z",
+        "updated_at": "2023-10-04T17:59:32.824Z",
+        "exhibit_id": "a4807e2c-6a66-4232-ae33-020f0564714f",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e72dae05-fb74-4139-83bc-a52d7a55f6f6",
+        "visit_date": "2023-10-05T06:44:26.269Z",
+        "feedback": "A must-visit for all art enthusiasts.",
+        "rating": 65155,
+        "created_at": "2023-10-04T15:50:10.959Z",
+        "updated_at": "2023-10-05T02:15:24.288Z",
+        "exhibit_id": "a4807e2c-6a66-4232-ae33-020f0564714f",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "curator": [
+      {
+        "id": "884272c1-a707-459e-9b39-2f3d35b0199a",
+        "specialization": "Modern Art",
+        "experience": 55034,
+        "biography": "Passionate curator with expertise in modern art",
+        "created_at": "2023-10-04T19:01:25.950Z",
+        "updated_at": "2023-10-04T14:53:55.925Z",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9269b190-3727-4649-8eb7-e726a21a352c",
+        "specialization": "Ancient History",
+        "experience": 48222,
+        "biography": "Experienced historian specializing in ancient civilizations",
+        "created_at": "2023-10-05T01:38:32.335Z",
+        "updated_at": "2023-10-04T15:57:46.949Z",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3532e918-511d-4a1a-88ae-370b2406fe78",
+        "specialization": "Scientific Discoveries",
+        "experience": 18442,
+        "biography": "Dedicated scientist with a focus on scientific discoveries",
+        "created_at": "2023-10-04T15:36:39.875Z",
+        "updated_at": "2023-10-05T07:46:49.079Z",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d5b9e161-1a79-4c45-9cb2-d72683920c08",
+        "specialization": "Paleontology",
+        "experience": 83493,
+        "biography": "Renowned paleontologist studying dinosaur fossils",
+        "created_at": "2023-10-05T09:38:24.423Z",
+        "updated_at": "2023-10-05T05:58:23.163Z",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0b7f20b1-5806-4309-8af9-367941706761",
+        "specialization": "Contemporary Photography",
+        "experience": 73580,
+        "biography": "Talented curator showcasing contemporary photography",
+        "created_at": "2023-10-05T09:40:42.576Z",
+        "updated_at": "2023-10-05T03:24:24.199Z",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "ea7ed868-5c90-4431-81f6-b0e62f170d21",
+        "email": "Aaliyah77@roq.tech",
+        "firstName": "Modesto",
+        "lastName": "Bauch",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/598.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "47779bb3-034d-49ce-80ac-410220ce984d",
+        "email": "Dallas.Wiza52@roq.tech",
+        "firstName": "Kiera",
+        "lastName": "Spencer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/752.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "80d70a2d-745c-42d9-a1d5-8faf313b43a4",
+        "email": "Landen.Cormier@roq.tech",
+        "firstName": "Kelsi",
+        "lastName": "Doyle",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/39045354",
+        "tenantId": null
+      },
+      {
+        "reference": "3d0ffcfd-22e4-43cc-b97c-277eac328056",
+        "email": "Isai_Dicki94@roq.tech",
+        "firstName": "Tom",
+        "lastName": "Schuppe",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/73564442",
+        "tenantId": null
+      },
+      {
+        "reference": "44da4aa6-f1c7-49c3-9903-4362dff9543f",
+        "email": "Casper_Abbott@roq.tech",
+        "firstName": "Margret",
+        "lastName": "Kihn",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/47860848",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "owner": [
+      {
+        "id": "3f71aa27-ff99-433b-b628-8c9ede3d7c90",
+        "ownership_date": "2023-10-05T00:28:47.770Z",
+        "ownership_duration": 82937,
+        "ownership_status": "Private",
+        "created_at": "2023-10-05T12:10:10.606Z",
+        "updated_at": "2023-10-05T05:51:04.303Z",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "75134fc0-2ba4-4351-8394-3ad3945648e3",
+        "ownership_date": "2023-10-04T17:36:06.233Z",
+        "ownership_duration": 25743,
+        "ownership_status": "Public",
+        "created_at": "2023-10-05T13:21:43.610Z",
+        "updated_at": "2023-10-04T14:26:05.737Z",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6e6e70c5-7a95-4144-9b32-c1a3a4bb9141",
+        "ownership_date": "2023-10-05T04:02:42.186Z",
+        "ownership_duration": 68994,
+        "ownership_status": "Non-profit",
+        "created_at": "2023-10-04T21:26:40.204Z",
+        "updated_at": "2023-10-04T14:42:55.772Z",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0939291e-ca94-4e7d-b663-91f079c11d2f",
+        "ownership_date": "2023-10-04T22:29:37.769Z",
+        "ownership_duration": 37434,
+        "ownership_status": "Government",
+        "created_at": "2023-10-05T04:44:38.967Z",
+        "updated_at": "2023-10-04T13:47:19.226Z",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5ffc5b18-7aa3-4905-8d6d-0500cae47355",
+        "ownership_date": "2023-10-04T15:32:35.652Z",
+        "ownership_duration": 43683,
+        "ownership_status": "Corporate",
+        "created_at": "2023-10-05T08:18:35.358Z",
+        "updated_at": "2023-10-05T09:09:26.519Z",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "exhibit": [
+      {
+        "id": "f54772a5-cd0e-4012-b74f-64e130d9dc8a",
+        "name": "Ancient Civilizations",
+        "origin": "Egypt",
+        "age": 74665,
+        "description": "Explore the mysteries of ancient civilizations and their artifacts",
+        "created_at": "2023-10-05T08:14:01.929Z",
+        "updated_at": "2023-10-04T18:19:41.186Z",
+        "museum_id": "main_entity_pk"
+      },
+      {
+        "id": "7a35d9cf-0309-4bd0-ad92-e71e0a4ed543",
+        "name": "Contemporary Art",
+        "origin": "France",
+        "age": 82122,
+        "description": "Experience the creativity and vision of modern artists",
+        "created_at": "2023-10-04T13:44:38.045Z",
+        "updated_at": "2023-10-05T09:56:51.083Z",
+        "museum_id": "main_entity_pk"
+      },
+      {
+        "id": "738a0047-e895-40ed-8203-bb2cc7f7f5db",
+        "name": "Space Exploration",
+        "origin": "United States",
+        "age": 4138,
+        "description": "Embark on a journey through space and learn about the universe",
+        "created_at": "2023-10-04T16:11:38.285Z",
+        "updated_at": "2023-10-04T22:16:43.635Z",
+        "museum_id": "main_entity_pk"
+      },
+      {
+        "id": "6635fe5f-4571-4609-9ef2-aeeec9fcb2a6",
+        "name": "Dinosaur Fossils",
+        "origin": "China",
+        "age": 84612,
+        "description": "Discover the world of dinosaurs through fossils and interactive displays",
+        "created_at": "2023-10-05T09:01:18.915Z",
+        "updated_at": "2023-10-05T10:38:50.938Z",
+        "museum_id": "main_entity_pk"
+      },
+      {
+        "id": "0a31f32d-4c4a-46dd-a35b-4bcfe419d33e",
+        "name": "Innovative Technologies",
+        "origin": "Japan",
+        "age": 11410,
+        "description": "Witness the evolution of technology and its impact on society",
+        "created_at": "2023-10-04T14:43:56.512Z",
+        "updated_at": "2023-10-04T15:54:02.837Z",
+        "museum_id": "main_entity_pk"
+      }
+    ],
+    "visitor": [
+      {
+        "id": "038829de-44ca-4e5d-b04d-58e7164cf35c",
+        "visit_date": "2023-10-04T20:24:38.928Z",
+        "feedback": "I had a great time at the museum!",
+        "rating": 18374,
+        "created_at": "2023-10-04T21:51:50.757Z",
+        "updated_at": "2023-10-04T18:43:04.518Z",
+        "exhibit_id": "738a0047-e895-40ed-8203-bb2cc7f7f5db",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5b7e1edc-2fd8-4bd5-8c2b-abb489b229b6",
+        "visit_date": "2023-10-04T18:01:10.557Z",
+        "feedback": "The exhibits were informative and engaging",
+        "rating": 44372,
+        "created_at": "2023-10-05T06:20:36.433Z",
+        "updated_at": "2023-10-04T23:05:26.629Z",
+        "exhibit_id": "738a0047-e895-40ed-8203-bb2cc7f7f5db",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "26d65073-f132-4c36-b493-5fc5da8cb761",
+        "visit_date": "2023-10-05T01:54:05.954Z",
+        "feedback": "The staff was friendly and knowledgeable",
+        "rating": 5402,
+        "created_at": "2023-10-05T00:16:24.291Z",
+        "updated_at": "2023-10-05T07:32:14.263Z",
+        "exhibit_id": "738a0047-e895-40ed-8203-bb2cc7f7f5db",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e7eafe77-1d70-46df-aa2e-dc25f8e5f9fb",
+        "visit_date": "2023-10-04T19:40:53.026Z",
+        "feedback": "The museum provided a unique learning experience",
+        "rating": 99875,
+        "created_at": "2023-10-04T14:54:10.604Z",
+        "updated_at": "2023-10-04T23:59:16.319Z",
+        "exhibit_id": "7a35d9cf-0309-4bd0-ad92-e71e0a4ed543",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "603a406a-b1d3-4fcc-bb08-dfbb75b4fce0",
+        "visit_date": "2023-10-05T10:55:31.380Z",
+        "feedback": "I would highly recommend visiting this museum",
+        "rating": 6467,
+        "created_at": "2023-10-04T17:51:51.694Z",
+        "updated_at": "2023-10-05T08:02:03.968Z",
+        "exhibit_id": "0a31f32d-4c4a-46dd-a35b-4bcfe419d33e",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "curator": [
+      {
+        "id": "40e9c5e7-7b15-41dd-8d71-7191a39126f7",
+        "specialization": "Ancient History",
+        "experience": 37115,
+        "biography": "I have dedicated my career to studying ancient civilizations and preserving their history",
+        "created_at": "2023-10-05T01:47:39.750Z",
+        "updated_at": "2023-10-04T22:57:30.797Z",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6d784e20-2398-4b9b-9b19-34940adbd3a4",
+        "specialization": "Contemporary Art",
+        "experience": 51199,
+        "biography": "As a curator, I am passionate about promoting local artists and their works",
+        "created_at": "2023-10-05T00:46:40.071Z",
+        "updated_at": "2023-10-05T12:55:28.375Z",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b69a033c-b64b-4e14-9604-2ae027a0c7f7",
+        "specialization": "Space Science",
+        "experience": 31006,
+        "biography": "My expertise lies in exploring the mysteries of the universe and sharing my knowledge with others",
+        "created_at": "2023-10-05T04:29:00.954Z",
+        "updated_at": "2023-10-05T02:34:04.383Z",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9f3f094c-0e21-456f-ac65-491e477104fa",
+        "specialization": "Paleontology",
+        "experience": 2240,
+        "biography": "I am fascinated by dinosaurs and enjoy educating visitors about their existence",
+        "created_at": "2023-10-04T22:01:19.399Z",
+        "updated_at": "2023-10-04T19:30:27.402Z",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8c2ec3aa-89f3-4f21-8ef6-ff698a828c03",
+        "specialization": "Technological Innovations",
+        "experience": 24249,
+        "biography": "I have a deep interest in the evolution of technology and its impact on society",
+        "created_at": "2023-10-05T02:17:40.987Z",
+        "updated_at": "2023-10-04T19:35:57.461Z",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "17fce54b-d54c-46af-8c58-5b8e2ba11cbb",
+        "email": "Savannah_Boyer33@roq.tech",
+        "firstName": "Hanna",
+        "lastName": "Corkery",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/223.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "1720688c-9f4c-40c3-85ee-ed04ff37ed85",
+        "email": "Tatum.Moore@roq.tech",
+        "firstName": "Taryn",
+        "lastName": "Goodwin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/51201924",
+        "tenantId": null
+      },
+      {
+        "reference": "066ed7fa-ea04-4abb-aa02-674197d3b03e",
+        "email": "Noah72@roq.tech",
+        "firstName": "Molly",
+        "lastName": "Champlin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1114.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "114d39b1-05f6-45c2-bd79-e165e29ced59",
+        "email": "Houston36@roq.tech",
+        "firstName": "Pedro",
+        "lastName": "Green",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/368.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "bc9ee20e-a404-4321-89aa-e67ddd516df6",
+        "email": "Elody.Brown@roq.tech",
+        "firstName": "Loma",
+        "lastName": "Braun",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/469.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "owner": [
+      {
+        "id": "045ebe53-24a1-405e-8f79-d8f9e461dbf1",
+        "ownership_date": "2023-10-05T11:22:03.120Z",
+        "ownership_duration": 4782,
+        "ownership_status": "Private",
+        "created_at": "2023-10-04T15:46:28.052Z",
+        "updated_at": "2023-10-04T19:49:46.445Z",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b7f06eaa-cc9b-4347-ab9d-660cc978f20f",
+        "ownership_date": "2023-10-04T15:51:13.309Z",
+        "ownership_duration": 38046,
+        "ownership_status": "Public",
+        "created_at": "2023-10-04T23:20:38.938Z",
+        "updated_at": "2023-10-04T15:52:15.374Z",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "81823c83-9db7-4e9a-acf1-f06b22d4e3b7",
+        "ownership_date": "2023-10-04T19:35:20.634Z",
+        "ownership_duration": 78451,
+        "ownership_status": "Non-profit",
+        "created_at": "2023-10-04T23:43:48.619Z",
+        "updated_at": "2023-10-04T21:10:55.934Z",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8a62af67-2807-47aa-a932-31d1b282ddb1",
+        "ownership_date": "2023-10-05T01:38:05.465Z",
+        "ownership_duration": 8492,
+        "ownership_status": "Government",
+        "created_at": "2023-10-04T22:51:29.919Z",
+        "updated_at": "2023-10-04T18:03:30.032Z",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "df1f0473-bf46-4f3d-a151-0e874c4e4be6",
+        "ownership_date": "2023-10-05T07:26:16.770Z",
+        "ownership_duration": 28253,
+        "ownership_status": "Corporate",
+        "created_at": "2023-10-04T21:50:37.949Z",
+        "updated_at": "2023-10-05T06:23:57.007Z",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "exhibit": [
+      {
+        "id": "6bf8d34d-5efe-45d4-95ff-936b1628df2a",
+        "name": "Ancient Civilizations: Unearthed Treasures",
+        "origin": "Egypt",
+        "age": 3982,
+        "description": "Discover the secrets of ancient civilizations through their artifacts",
+        "created_at": "2023-10-04T19:39:48.736Z",
+        "updated_at": "2023-10-04T20:05:46.609Z",
+        "museum_id": "main_entity_pk"
+      },
+      {
+        "id": "b0287fb8-287e-45f9-9b6e-82797807eeea",
+        "name": "Contemporary Expressions: Art in the Modern World",
+        "origin": "France",
+        "age": 24534,
+        "description": "Experience the diverse range of contemporary art forms",
+        "created_at": "2023-10-04T15:40:32.976Z",
+        "updated_at": "2023-10-04T17:06:34.563Z",
+        "museum_id": "main_entity_pk"
+      },
+      {
+        "id": "4b614c1e-da93-4124-aed4-e6d2375940fc",
+        "name": "Space Exploration: Journey to the Stars",
+        "origin": "United States",
+        "age": 80580,
+        "description": "Embark on a virtual journey through the wonders of space",
+        "created_at": "2023-10-05T13:04:04.742Z",
+        "updated_at": "2023-10-04T18:42:47.352Z",
+        "museum_id": "main_entity_pk"
+      },
+      {
+        "id": "87f48f76-7636-44ca-a136-45d098207191",
+        "name": "Fossils and Beyond: Exploring Earth's History",
+        "origin": "China",
+        "age": 25795,
+        "description": "Uncover the mysteries of prehistoric life through fossils and specimens",
+        "created_at": "2023-10-05T13:12:37.217Z",
+        "updated_at": "2023-10-04T21:20:36.348Z",
+        "museum_id": "main_entity_pk"
+      },
+      {
+        "id": "6aca5170-5c37-4329-b23c-d241e72fd53e",
+        "name": "Tech Revolution: From Past to Present",
+        "origin": "Italy",
+        "age": 23817,
+        "description": "Explore the evolution of technology and its impact on society",
+        "created_at": "2023-10-04T21:59:32.512Z",
+        "updated_at": "2023-10-04T16:53:34.791Z",
+        "museum_id": "main_entity_pk"
+      }
+    ],
+    "visitor": [
+      {
+        "id": "4bb08781-cca6-4919-b682-be1ba12c42d4",
+        "visit_date": "2023-10-04T15:33:08.439Z",
+        "feedback": "The museum exceeded my expectations!",
+        "rating": 2220,
+        "created_at": "2023-10-05T11:06:55.990Z",
+        "updated_at": "2023-10-04T17:31:50.483Z",
+        "exhibit_id": "b0287fb8-287e-45f9-9b6e-82797807eeea",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4f907e3e-dbc7-4707-89ad-0960df9480d4",
+        "visit_date": "2023-10-05T04:21:07.855Z",
+        "feedback": "I was impressed by the quality of the exhibits",
+        "rating": 72450,
+        "created_at": "2023-10-04T21:27:55.659Z",
+        "updated_at": "2023-10-04T23:33:43.705Z",
+        "exhibit_id": "87f48f76-7636-44ca-a136-45d098207191",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "260bd739-3911-442d-abc5-ae7c69d90c2b",
+        "visit_date": "2023-10-04T18:46:23.123Z",
+        "feedback": "A must-visit for all science enthusiasts",
+        "rating": 38222,
+        "created_at": "2023-10-05T02:03:39.763Z",
+        "updated_at": "2023-10-04T16:29:55.092Z",
+        "exhibit_id": "6aca5170-5c37-4329-b23c-d241e72fd53e",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "82a90b47-bd5c-4bd4-a6e1-40b8eb41dee0",
+        "visit_date": "2023-10-04T16:23:45.819Z",
+        "feedback": "The staff was friendly and knowledgeable",
+        "rating": 14619,
+        "created_at": "2023-10-05T04:04:31.737Z",
+        "updated_at": "2023-10-05T09:02:33.983Z",
+        "exhibit_id": "b0287fb8-287e-45f9-9b6e-82797807eeea",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "44ac6164-5ec1-44f5-acda-698f444cbde3",
+        "visit_date": "2023-10-05T06:06:31.760Z",
+        "feedback": "The museum offers a unique learning experience",
+        "rating": 8049,
+        "created_at": "2023-10-05T12:47:13.162Z",
+        "updated_at": "2023-10-05T00:23:29.778Z",
+        "exhibit_id": "4b614c1e-da93-4124-aed4-e6d2375940fc",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "curator": [
+      {
+        "id": "0a4ff00e-296a-40d1-b9a7-61be74779483",
+        "specialization": "Ancient History",
+        "experience": 79738,
+        "biography": "With a passion for ancient history, I curate exhibits that bring the past to life",
+        "created_at": "2023-10-04T19:50:10.099Z",
+        "updated_at": "2023-10-04T23:04:37.817Z",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4a9087c0-cb9f-485d-a871-04b5cfde0790",
+        "specialization": "Modern Art",
+        "experience": 53354,
+        "biography": "As a curator of modern art, I strive to showcase diverse artistic expressions",
+        "created_at": "2023-10-04T19:39:55.659Z",
+        "updated_at": "2023-10-04T22:53:42.919Z",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "eca38314-0585-42a4-b986-e86c5b5dcf09",
+        "specialization": "Astronomy",
+        "experience": 9403,
+        "biography": "Fascinated by the wonders of the universe, I curate exhibits on astronomy",
+        "created_at": "2023-10-04T21:01:07.921Z",
+        "updated_at": "2023-10-05T08:49:43.369Z",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "782ad4d4-c299-48d0-bfed-019b591dd114",
+        "specialization": "Paleontology",
+        "experience": 65529,
+        "biography": "I specialize in paleontology and love sharing the story of Earth's ancient inhabitants",
+        "created_at": "2023-10-04T18:00:19.843Z",
+        "updated_at": "2023-10-05T00:53:52.065Z",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "17dd49be-b3e6-4ba0-b31f-93fb8bc1a9b2",
+        "specialization": "Technological Innovations",
+        "experience": 32249,
+        "biography": "With a background in technology, I curate exhibits that highlight innovation and its impact on society",
+        "created_at": "2023-10-05T07:16:16.598Z",
+        "updated_at": "2023-10-05T12:05:58.835Z",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "23f22730-2464-4fd4-8fbf-fc20585b3825",
+        "email": "Joyce_Bruen@roq.tech",
+        "firstName": "Rachel",
+        "lastName": "Altenwerth",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/75693696",
+        "tenantId": null
+      },
+      {
+        "reference": "d517a976-68e8-46db-9301-800561432763",
+        "email": "Dasia51@roq.tech",
+        "firstName": "Dallin",
+        "lastName": "Miller",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/91145559",
+        "tenantId": null
+      },
+      {
+        "reference": "f0628df9-6a2f-4778-b7d2-ab58a637e49d",
+        "email": "Carmela55@roq.tech",
+        "firstName": "Tia",
+        "lastName": "Hyatt",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/76390169",
+        "tenantId": null
+      },
+      {
+        "reference": "5d0a7f62-1bdd-425f-a0ea-672274fa5505",
+        "email": "Delta.Goyette@roq.tech",
+        "firstName": "Belle",
+        "lastName": "Hauck",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/99733806",
+        "tenantId": null
+      },
+      {
+        "reference": "4292e1de-097c-4d6b-93ea-d67a9e5e92c4",
+        "email": "Birdie.Jerde63@roq.tech",
+        "firstName": "Heidi",
+        "lastName": "Leffler",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/208.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "owner": [
+      {
+        "id": "73457679-3430-47ee-922f-a8d4c6cd2d61",
+        "ownership_date": "2023-10-05T04:16:37.783Z",
+        "ownership_duration": 63963,
+        "ownership_status": "Private",
+        "created_at": "2023-10-05T07:24:18.419Z",
+        "updated_at": "2023-10-05T10:47:22.816Z",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "488b1b7b-3a8d-4124-86ce-0d114da870db",
+        "ownership_date": "2023-10-05T04:33:22.491Z",
+        "ownership_duration": 65152,
+        "ownership_status": "Public",
+        "created_at": "2023-10-05T11:00:29.245Z",
+        "updated_at": "2023-10-05T05:01:43.170Z",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "db88600e-3379-4847-95fc-6b29199b7596",
+        "ownership_date": "2023-10-04T17:27:17.750Z",
+        "ownership_duration": 59969,
+        "ownership_status": "Non-profit",
+        "created_at": "2023-10-05T08:37:45.418Z",
+        "updated_at": "2023-10-05T10:30:33.655Z",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "31bdce66-0728-4f56-b5e5-4132e025fc52",
+        "ownership_date": "2023-10-04T17:19:33.365Z",
+        "ownership_duration": 24235,
+        "ownership_status": "Government",
+        "created_at": "2023-10-04T17:49:33.048Z",
+        "updated_at": "2023-10-04T22:38:03.396Z",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5b37b4a6-6ea6-417f-ae3a-29f0d73aa885",
+        "ownership_date": "2023-10-04T22:12:28.202Z",
+        "ownership_duration": 79668,
+        "ownership_status": "Corporate",
+        "created_at": "2023-10-04T23:48:47.644Z",
+        "updated_at": "2023-10-04T18:52:15.237Z",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "exhibit": [
+      {
+        "id": "4c5c9e6d-5f7c-4a3e-8d54-e084665d3e61",
+        "name": "Ancient Civilizations: Lost Treasures",
+        "origin": "Egypt",
+        "age": 14938,
+        "description": "Discover the mysteries of ancient civilizations and their hidden treasures",
+        "created_at": "2023-10-04T16:15:00.546Z",
+        "updated_at": "2023-10-05T11:09:52.681Z",
+        "museum_id": "main_entity_pk"
+      },
+      {
+        "id": "deec3100-718c-4f11-b74d-42dcfa8c16f2",
+        "name": "Contemporary Expressions: Art in the Modern World",
+        "origin": "France",
+        "age": 54217,
+        "description": "Immerse yourself in the vibrant and diverse world of contemporary art",
+        "created_at": "2023-10-05T12:35:30.528Z",
+        "updated_at": "2023-10-05T02:58:24.027Z",
+        "museum_id": "main_entity_pk"
+      },
+      {
+        "id": "7376ddf7-ef4e-4bb0-bbaf-207ab0f449ae",
+        "name": "Exploring the Universe: A Journey through Space",
+        "origin": "Japan",
+        "age": 55192,
+        "description": "Embark on a cosmic adventure and learn about the wonders of the universe",
+        "created_at": "2023-10-05T05:46:09.861Z",
+        "updated_at": "2023-10-05T01:25:26.826Z",
+        "museum_id": "main_entity_pk"
+      },
+      {
+        "id": "7c05cc4f-3f0c-40c5-b629-440359dd3230",
+        "name": "Fossils and Beyond: The Story of Life",
+        "origin": "Greece",
+        "age": 48702,
+        "description": "Unearth the secrets of prehistoric life through fossils and specimens",
+        "created_at": "2023-10-04T18:53:15.042Z",
+        "updated_at": "2023-10-05T04:56:09.791Z",
+        "museum_id": "main_entity_pk"
+      },
+      {
+        "id": "0f9ed987-c44d-46bb-9b04-446e34d9d35d",
+        "name": "Cultural Diversity: A Tapestry of Traditions",
+        "origin": "India",
+        "age": 30984,
+        "description": "Explore the rich cultural heritage of different communities around the world",
+        "created_at": "2023-10-05T12:14:29.506Z",
+        "updated_at": "2023-10-05T00:29:51.834Z",
+        "museum_id": "main_entity_pk"
+      }
+    ],
+    "visitor": [
+      {
+        "id": "a1db5098-6918-422d-8aac-cd1212a8fd70",
+        "visit_date": "2023-10-05T05:23:04.385Z",
+        "feedback": "The museum exceeded my expectations!",
+        "rating": 1884,
+        "created_at": "2023-10-05T12:05:58.226Z",
+        "updated_at": "2023-10-05T01:52:56.516Z",
+        "exhibit_id": "4c5c9e6d-5f7c-4a3e-8d54-e084665d3e61",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "14da2dcf-e712-4b7d-806b-4c3527a50f53",
+        "visit_date": "2023-10-04T20:58:42.968Z",
+        "feedback": "I was impressed by the knowledgeable staff",
+        "rating": 87439,
+        "created_at": "2023-10-04T14:08:31.092Z",
+        "updated_at": "2023-10-04T22:58:54.599Z",
+        "exhibit_id": "deec3100-718c-4f11-b74d-42dcfa8c16f2",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9c4c8b90-780f-4837-bb9a-806818b638fd",
+        "visit_date": "2023-10-04T15:40:15.154Z",
+        "feedback": "The exhibits were engaging and informative",
+        "rating": 55592,
+        "created_at": "2023-10-04T16:26:01.251Z",
+        "updated_at": "2023-10-05T05:28:59.357Z",
+        "exhibit_id": "7c05cc4f-3f0c-40c5-b629-440359dd3230",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7f959833-187c-4d72-a383-96524aff4b87",
+        "visit_date": "2023-10-05T02:13:25.990Z",
+        "feedback": "A must-visit for art enthusiasts",
+        "rating": 95577,
+        "created_at": "2023-10-05T02:02:02.170Z",
+        "updated_at": "2023-10-04T13:50:11.870Z",
+        "exhibit_id": "4c5c9e6d-5f7c-4a3e-8d54-e084665d3e61",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1269ab03-7f9a-4f27-b4ae-0bccecb56891",
+        "visit_date": "2023-10-05T11:36:04.596Z",
+        "feedback": "I learned so much about history and culture",
+        "rating": 36716,
+        "created_at": "2023-10-05T07:22:50.204Z",
+        "updated_at": "2023-10-04T14:51:14.404Z",
+        "exhibit_id": "4c5c9e6d-5f7c-4a3e-8d54-e084665d3e61",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "curator": [
+      {
+        "id": "b8770c20-358d-4a49-8ec8-88e57de52704",
+        "specialization": "Ancient Art",
+        "experience": 96718,
+        "biography": "With a passion for ancient art, I strive to bring history to life through curated exhibits",
+        "created_at": "2023-10-05T10:00:20.348Z",
+        "updated_at": "2023-10-05T12:16:12.556Z",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bd6aa6e5-7efc-4f41-ab7c-f81081b873f2",
+        "specialization": "Modern Sculpture",
+        "experience": 83275,
+        "biography": "As a curator, I aim to showcase the beauty and creativity of modern sculpture",
+        "created_at": "2023-10-05T08:47:45.871Z",
+        "updated_at": "2023-10-05T06:58:51.947Z",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e133b5bf-810a-4ab0-b595-c5acd3a53ce5",
+        "specialization": "Space Exploration",
+        "experience": 34264,
+        "biography": "Fascinated by space exploration, I curate exhibits that inspire wonder and curiosity",
+        "created_at": "2023-10-05T09:20:23.243Z",
+        "updated_at": "2023-10-05T12:54:28.388Z",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e1c1472f-3ad0-44e8-bedc-91cf7d8daa42",
+        "specialization": "Paleontology",
+        "experience": 2787,
+        "biography": "Dedicated to preserving and sharing the story of prehistoric life through paleontology exhibits",
+        "created_at": "2023-10-05T03:58:10.310Z",
+        "updated_at": "2023-10-04T20:07:09.950Z",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b18b269e-aace-47f0-9cd1-55f6bab77bed",
+        "specialization": "Cultural Anthropology",
+        "experience": 72136,
+        "biography": "With a background in cultural anthropology, I curate exhibits that celebrate diversity and promote understanding",
+        "created_at": "2023-10-05T10:05:11.606Z",
+        "updated_at": "2023-10-04T18:54:34.057Z",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "9b4b5eb0-4d54-4543-b8a0-a8b73d13aacd",
+        "email": "Madilyn11@roq.tech",
+        "firstName": "Jewell",
+        "lastName": "Lang",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1243.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "27953f4a-3bda-4195-8c7d-95db975a1652",
+        "email": "Amanda.Feest27@roq.tech",
+        "firstName": "Claire",
+        "lastName": "Weimann",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/44339069",
+        "tenantId": null
+      },
+      {
+        "reference": "f02787ee-17d0-4a83-8cd2-d6907c5533aa",
+        "email": "Helena_Rath31@roq.tech",
+        "firstName": "Marshall",
+        "lastName": "Rohan",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/214.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "3919a7fa-e54f-42a2-98bc-8f59a0adf7d5",
+        "email": "Rhianna_Hegmann@roq.tech",
+        "firstName": "Delores",
+        "lastName": "Jakubowski",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/96762510",
+        "tenantId": null
+      },
+      {
+        "reference": "d7351c35-cb79-4aaa-9ad5-f2fc7bada349",
+        "email": "Lesly35@roq.tech",
+        "firstName": "Elisha",
+        "lastName": "Cartwright",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/73432755",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "owner": [
+      {
+        "id": "25388d74-23b9-408b-ba34-e18e39054281",
+        "ownership_date": "2023-10-04T14:36:44.589Z",
+        "ownership_duration": 35043,
+        "ownership_status": "Private",
+        "created_at": "2023-10-04T20:04:17.416Z",
+        "updated_at": "2023-10-04T19:46:09.995Z",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "083b7701-a102-4f6b-b2c3-32d3246d5a35",
+        "ownership_date": "2023-10-04T18:47:39.202Z",
+        "ownership_duration": 94059,
+        "ownership_status": "Public",
+        "created_at": "2023-10-04T21:20:13.799Z",
+        "updated_at": "2023-10-05T04:42:15.381Z",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "27f344fb-b01c-4e53-946c-e50882128f8d",
+        "ownership_date": "2023-10-04T22:42:12.372Z",
+        "ownership_duration": 17343,
+        "ownership_status": "Non-profit",
+        "created_at": "2023-10-04T14:28:02.865Z",
+        "updated_at": "2023-10-05T10:15:43.957Z",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e0a08d73-9fff-4d8c-b065-0e72e84070ad",
+        "ownership_date": "2023-10-04T18:16:37.795Z",
+        "ownership_duration": 8854,
+        "ownership_status": "Government-owned",
+        "created_at": "2023-10-05T12:56:33.444Z",
+        "updated_at": "2023-10-05T04:21:34.125Z",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4826ff44-8c84-4b7f-9736-9b057c83fbb4",
+        "ownership_date": "2023-10-05T06:06:46.185Z",
+        "ownership_duration": 68214,
+        "ownership_status": "Corporate",
+        "created_at": "2023-10-05T10:35:40.834Z",
+        "updated_at": "2023-10-05T06:02:44.179Z",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "exhibit": [
+      {
+        "id": "60e542fd-be6d-4b53-9233-848e18ea8ca3",
+        "name": "The Renaissance Era",
+        "origin": "Italy",
+        "age": 54514,
+        "description": "Discover the beauty of Renaissance art",
+        "created_at": "2023-10-05T01:57:28.481Z",
+        "updated_at": "2023-10-05T10:21:56.087Z",
+        "museum_id": "main_entity_pk"
+      },
+      {
+        "id": "2db71a7d-f0a7-4d16-919d-0f3efe14698a",
+        "name": "Ancient Egyptian Art",
+        "origin": "Egypt",
+        "age": 30391,
+        "description": "Explore the mysteries of ancient Egypt",
+        "created_at": "2023-10-04T21:41:57.525Z",
+        "updated_at": "2023-10-05T04:17:26.236Z",
+        "museum_id": "main_entity_pk"
+      },
+      {
+        "id": "3bf1e312-3da6-4841-b685-11e6303b91a5",
+        "name": "Space Exploration",
+        "origin": "United States",
+        "age": 89348,
+        "description": "Learn about the history of space exploration",
+        "created_at": "2023-10-04T23:25:18.395Z",
+        "updated_at": "2023-10-05T10:25:33.553Z",
+        "museum_id": "main_entity_pk"
+      },
+      {
+        "id": "a3de211b-dfde-4344-acc7-c3ae10ffbc1b",
+        "name": "Dinosaur Fossils",
+        "origin": "China",
+        "age": 30441,
+        "description": "Uncover the secrets of dinosaurs",
+        "created_at": "2023-10-04T20:59:33.429Z",
+        "updated_at": "2023-10-04T21:31:58.708Z",
+        "museum_id": "main_entity_pk"
+      },
+      {
+        "id": "0b4831e8-ea32-44af-9a2b-9f5d39601b8a",
+        "name": "Contemporary Sculptures",
+        "origin": "France",
+        "age": 67016,
+        "description": "Appreciate the creativity of contemporary sculptures",
+        "created_at": "2023-10-05T08:08:10.928Z",
+        "updated_at": "2023-10-04T22:06:42.383Z",
+        "museum_id": "main_entity_pk"
+      }
+    ],
+    "visitor": [
+      {
+        "id": "05160083-7aff-4b12-a90d-a2ae72e98794",
+        "visit_date": "2023-10-05T08:28:52.969Z",
+        "feedback": "Amazing experience!",
+        "rating": 65994,
+        "created_at": "2023-10-04T14:46:47.564Z",
+        "updated_at": "2023-10-05T01:10:05.074Z",
+        "exhibit_id": "2db71a7d-f0a7-4d16-919d-0f3efe14698a",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fa3f5223-a356-4455-8374-8e6822a81b8b",
+        "visit_date": "2023-10-05T11:16:41.034Z",
+        "feedback": "Highly recommended",
+        "rating": 10352,
+        "created_at": "2023-10-05T12:57:55.746Z",
+        "updated_at": "2023-10-05T05:11:40.582Z",
+        "exhibit_id": "60e542fd-be6d-4b53-9233-848e18ea8ca3",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "09ad7572-938e-4b4f-8d0f-5256eb381bea",
+        "visit_date": "2023-10-05T04:36:49.399Z",
+        "feedback": "Great collection",
+        "rating": 90116,
+        "created_at": "2023-10-05T04:08:59.506Z",
+        "updated_at": "2023-10-04T13:52:19.216Z",
+        "exhibit_id": "3bf1e312-3da6-4841-b685-11e6303b91a5",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c97d3ee3-8065-40c4-a68d-6ac77fce260e",
+        "visit_date": "2023-10-05T11:22:11.502Z",
+        "feedback": "Knowledgeable staff",
+        "rating": 50642,
+        "created_at": "2023-10-04T23:36:37.127Z",
+        "updated_at": "2023-10-04T20:41:04.362Z",
+        "exhibit_id": "0b4831e8-ea32-44af-9a2b-9f5d39601b8a",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "544878a5-9670-44bd-ac69-d238c85c1f3b",
+        "visit_date": "2023-10-05T06:51:39.419Z",
+        "feedback": "Will visit again",
+        "rating": 4189,
+        "created_at": "2023-10-05T12:50:09.849Z",
+        "updated_at": "2023-10-05T08:34:12.559Z",
+        "exhibit_id": "3bf1e312-3da6-4841-b685-11e6303b91a5",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "curator": [
+      {
+        "id": "6c8425e4-91c9-4c9e-9fcb-5a5661faefc2",
+        "specialization": "Modern Art",
+        "experience": 51717,
+        "biography": "Passionate about preserving art for future generations",
+        "created_at": "2023-10-04T17:15:11.389Z",
+        "updated_at": "2023-10-05T12:21:15.589Z",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "aa51ab3c-29ad-43b1-ae31-76f8b271d1de",
+        "specialization": "Ancient History",
+        "experience": 11834,
+        "biography": "Dedicated to unraveling the mysteries of the past",
+        "created_at": "2023-10-05T11:16:21.934Z",
+        "updated_at": "2023-10-04T19:43:12.979Z",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8507bca5-ceec-401c-b6a7-e965057003b5",
+        "specialization": "Natural Sciences",
+        "experience": 46402,
+        "biography": "Enthusiastic about promoting scientific knowledge",
+        "created_at": "2023-10-04T15:58:05.152Z",
+        "updated_at": "2023-10-05T12:50:38.698Z",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f569c4af-d0b1-44ca-a327-23ac0083be57",
+        "specialization": "Archaeology",
+        "experience": 59860,
+        "biography": "Committed to preserving our cultural heritage",
+        "created_at": "2023-10-05T04:48:29.740Z",
+        "updated_at": "2023-10-04T14:06:14.716Z",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "66646ad5-740f-43fe-b49c-2a181dd98b09",
+        "specialization": "Contemporary Culture",
+        "experience": 60318,
+        "biography": "Inspired by the creativity of contemporary artists",
+        "created_at": "2023-10-05T00:48:25.071Z",
+        "updated_at": "2023-10-05T12:11:22.997Z",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "77b600e6-1bdb-4c65-9f6f-70ab07a6a5d0",
+        "email": "Arlie_Swaniawski@roq.tech",
+        "firstName": "Cory",
+        "lastName": "Kemmer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2218999",
+        "tenantId": null
+      },
+      {
+        "reference": "f67be34d-b522-452f-8453-9a8e76fcb6b6",
+        "email": "Kelsi.Schamberger5@roq.tech",
+        "firstName": "Marcelle",
+        "lastName": "Dietrich",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1132.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "505f3139-3e65-4191-a467-91b5944bc4b6",
+        "email": "Elsa89@roq.tech",
+        "firstName": "Deja",
+        "lastName": "Swaniawski",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/39506571",
+        "tenantId": null
+      },
+      {
+        "reference": "5e8f49cf-a3e4-474f-b8ab-fc336f6d7956",
+        "email": "Dessie97@roq.tech",
+        "firstName": "Jedediah",
+        "lastName": "Swaniawski",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/96415559",
+        "tenantId": null
+      },
+      {
+        "reference": "efc983ec-85b3-449b-a997-1f92c2f94d36",
+        "email": "Cordie60@roq.tech",
+        "firstName": "Nakia",
+        "lastName": "Rutherford",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/131.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "owner": [
+      {
+        "id": "b89ded09-36c9-4785-a627-fd71f1e880aa",
+        "ownership_date": "2023-10-05T08:02:34.062Z",
+        "ownership_duration": 9625,
+        "ownership_status": "Private",
+        "created_at": "2023-10-05T07:21:07.406Z",
+        "updated_at": "2023-10-04T15:50:15.001Z",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6eca8327-a74a-41b4-ba60-4abf1cce130a",
+        "ownership_date": "2023-10-05T09:22:29.623Z",
+        "ownership_duration": 29686,
+        "ownership_status": "Public",
+        "created_at": "2023-10-05T01:36:51.053Z",
+        "updated_at": "2023-10-05T07:06:23.475Z",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "caba07fe-5969-4b80-9378-7219457cd2c4",
+        "ownership_date": "2023-10-05T02:49:53.976Z",
+        "ownership_duration": 50801,
+        "ownership_status": "Non-profit",
+        "created_at": "2023-10-05T05:36:43.261Z",
+        "updated_at": "2023-10-05T11:29:26.511Z",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d4a4dc3b-c08d-4651-a2bd-f31df502bbfa",
+        "ownership_date": "2023-10-04T19:48:30.376Z",
+        "ownership_duration": 47379,
+        "ownership_status": "Government",
+        "created_at": "2023-10-04T17:44:40.456Z",
+        "updated_at": "2023-10-05T08:28:31.318Z",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "46d0ac4c-5820-49b0-b124-64f5862873e0",
+        "ownership_date": "2023-10-05T05:01:01.326Z",
+        "ownership_duration": 15766,
+        "ownership_status": "Corporate",
+        "created_at": "2023-10-04T16:02:31.243Z",
+        "updated_at": "2023-10-05T00:43:23.754Z",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "exhibit": [
+      {
+        "id": "a9f56858-3572-4527-8912-dc5a892fb037",
+        "name": "Ancient Civilizations",
+        "origin": "Egypt",
+        "age": 78150,
+        "description": "Explore the mysteries of ancient civilizations",
+        "created_at": "2023-10-04T19:37:43.623Z",
+        "updated_at": "2023-10-05T01:56:16.645Z",
+        "museum_id": "main_entity_pk"
+      },
+      {
+        "id": "304779a0-986b-465f-86b0-ba322dbd3bfd",
+        "name": "Modern Art",
+        "origin": "France",
+        "age": 64020,
+        "description": "Experience the beauty of modern art",
+        "created_at": "2023-10-05T11:54:41.267Z",
+        "updated_at": "2023-10-05T01:03:57.515Z",
+        "museum_id": "main_entity_pk"
+      },
+      {
+        "id": "1cbb31b3-abfc-445c-99ee-64d571138ac6",
+        "name": "Space Exploration",
+        "origin": "USA",
+        "age": 68609,
+        "description": "Discover the wonders of space",
+        "created_at": "2023-10-04T19:12:10.740Z",
+        "updated_at": "2023-10-04T20:56:05.576Z",
+        "museum_id": "main_entity_pk"
+      },
+      {
+        "id": "141748c5-fb72-49db-a81c-b3b7f6cfabe3",
+        "name": "Dinosaur Kingdom",
+        "origin": "China",
+        "age": 46433,
+        "description": "Encounter life-sized dinosaur fossils",
+        "created_at": "2023-10-04T17:46:22.222Z",
+        "updated_at": "2023-10-04T19:35:38.853Z",
+        "museum_id": "main_entity_pk"
+      },
+      {
+        "id": "553ddcb1-1620-4d84-87ea-a98a93db5c73",
+        "name": "Local Traditions",
+        "origin": "India",
+        "age": 87133,
+        "description": "Immerse yourself in local traditions",
+        "created_at": "2023-10-05T10:28:15.228Z",
+        "updated_at": "2023-10-05T02:26:01.976Z",
+        "museum_id": "main_entity_pk"
+      }
+    ],
+    "visitor": [
+      {
+        "id": "ae674e0a-2591-4b3d-bebf-3aa55019c651",
+        "visit_date": "2023-10-05T08:05:19.103Z",
+        "feedback": "Amazing experience!",
+        "rating": 62489,
+        "created_at": "2023-10-05T02:57:05.170Z",
+        "updated_at": "2023-10-04T14:57:01.753Z",
+        "exhibit_id": "553ddcb1-1620-4d84-87ea-a98a93db5c73",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "25683c4b-99b7-46b4-87e5-e03df65a7cef",
+        "visit_date": "2023-10-05T03:20:37.034Z",
+        "feedback": "Highly recommended!",
+        "rating": 58114,
+        "created_at": "2023-10-05T01:20:51.611Z",
+        "updated_at": "2023-10-04T19:23:59.874Z",
+        "exhibit_id": "a9f56858-3572-4527-8912-dc5a892fb037",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "513ba408-9a1d-4b1b-817e-3a194945ff10",
+        "visit_date": "2023-10-05T11:46:29.785Z",
+        "feedback": "Great place to visit!",
+        "rating": 87462,
+        "created_at": "2023-10-05T01:08:31.184Z",
+        "updated_at": "2023-10-04T19:00:43.854Z",
+        "exhibit_id": "a9f56858-3572-4527-8912-dc5a892fb037",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "eb92b755-c518-4296-9873-8c0a8a50ca57",
+        "visit_date": "2023-10-05T02:06:49.080Z",
+        "feedback": "Impressive collection!",
+        "rating": 87977,
+        "created_at": "2023-10-04T16:58:04.220Z",
+        "updated_at": "2023-10-05T03:15:55.309Z",
+        "exhibit_id": "a9f56858-3572-4527-8912-dc5a892fb037",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8adc3297-05b4-45e7-acf1-eef340f0d308",
+        "visit_date": "2023-10-05T05:58:30.429Z",
+        "feedback": "Friendly staff!",
+        "rating": 99807,
+        "created_at": "2023-10-04T13:47:21.164Z",
+        "updated_at": "2023-10-04T22:08:45.534Z",
+        "exhibit_id": "141748c5-fb72-49db-a81c-b3b7f6cfabe3",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "curator": [
+      {
+        "id": "3f8220a5-6975-4613-8b96-62ddb8d0bf60",
+        "specialization": "Ancient History",
+        "experience": 42670,
+        "biography": "Passionate curator with extensive knowledge of ancient history",
+        "created_at": "2023-10-04T15:44:29.102Z",
+        "updated_at": "2023-10-04T22:06:37.900Z",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0777c591-2653-44ae-a171-113cbe2d42dd",
+        "specialization": "Contemporary Art",
+        "experience": 35938,
+        "biography": "Dedicated to promoting contemporary art and supporting emerging artists",
+        "created_at": "2023-10-04T21:41:18.045Z",
+        "updated_at": "2023-10-04T21:13:49.321Z",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "04575e17-6d62-40ba-a9a8-fa4a1bf5b22b",
+        "specialization": "Astrophysics",
+        "experience": 66748,
+        "biography": "Astrophysicist turned museum curator, eager to share the wonders of the universe",
+        "created_at": "2023-10-05T04:23:46.200Z",
+        "updated_at": "2023-10-04T16:52:18.523Z",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e2fa81a7-f5b2-484f-971e-1dcea72eaca5",
+        "specialization": "Paleontology",
+        "experience": 1573,
+        "biography": "Expert in paleontology, committed to preserving and studying dinosaur fossils",
+        "created_at": "2023-10-05T01:56:00.270Z",
+        "updated_at": "2023-10-05T13:18:55.888Z",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4cc892f3-5e96-452d-b47c-e3e6bb17b41b",
+        "specialization": "Anthropology",
+        "experience": 21299,
+        "biography": "Anthropologist specializing in local cultures, dedicated to preserving cultural heritage",
+        "created_at": "2023-10-05T05:58:17.001Z",
+        "updated_at": "2023-10-05T10:50:16.232Z",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "105f7029-5b91-4221-b7b2-02ab98e1e7ea",
+        "email": "Ron.Kilback90@roq.tech",
+        "firstName": "Eusebio",
+        "lastName": "Gislason",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/34399317",
+        "tenantId": null
+      },
+      {
+        "reference": "b482b4bc-fa23-4ebf-9126-c352456e4ff3",
+        "email": "Neil_Prohaska@roq.tech",
+        "firstName": "Emmalee",
+        "lastName": "Wiegand",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/60232893",
+        "tenantId": null
+      },
+      {
+        "reference": "05549f24-b50e-4971-8cfd-cd569a652827",
+        "email": "Aidan11@roq.tech",
+        "firstName": "Rowland",
+        "lastName": "Reilly-Barrows",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/19044728",
+        "tenantId": null
+      },
+      {
+        "reference": "eda0e63e-ca76-42c5-ae4e-3c171f5ec41d",
+        "email": "Shyanne_Mohr6@roq.tech",
+        "firstName": "Michale",
+        "lastName": "Mills",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7400106",
+        "tenantId": null
+      },
+      {
+        "reference": "80b8ed27-1c25-4300-8843-4ef196d31e84",
+        "email": "Stella9@roq.tech",
+        "firstName": "Albina",
+        "lastName": "Veum",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/83758943",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "owner": [
+      {
+        "id": "627c5798-433c-4fa0-8bf2-ac3040f9bdb2",
+        "ownership_date": "2023-10-05T02:27:25.836Z",
+        "ownership_duration": 41373,
+        "ownership_status": "Private",
+        "created_at": "2023-10-05T11:28:35.840Z",
+        "updated_at": "2023-10-05T10:21:07.912Z",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7966a432-ae8a-436a-81a5-07e523962582",
+        "ownership_date": "2023-10-05T06:50:14.454Z",
+        "ownership_duration": 5290,
+        "ownership_status": "Public",
+        "created_at": "2023-10-04T21:03:33.644Z",
+        "updated_at": "2023-10-04T21:48:55.532Z",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d7734b5c-1787-4ed7-9d47-8f632a84475a",
+        "ownership_date": "2023-10-05T00:41:26.820Z",
+        "ownership_duration": 12277,
+        "ownership_status": "Non-profit",
+        "created_at": "2023-10-04T22:05:59.158Z",
+        "updated_at": "2023-10-05T08:57:08.965Z",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6ee0e186-f74e-4bc1-9c6d-d1ead58fbb49",
+        "ownership_date": "2023-10-05T04:29:37.790Z",
+        "ownership_duration": 39232,
+        "ownership_status": "Government",
+        "created_at": "2023-10-05T12:43:39.375Z",
+        "updated_at": "2023-10-05T08:05:29.787Z",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bd2b9794-0701-493e-92c7-e97020d8c935",
+        "ownership_date": "2023-10-05T07:46:04.354Z",
+        "ownership_duration": 80586,
+        "ownership_status": "Corporate",
+        "created_at": "2023-10-05T04:13:16.220Z",
+        "updated_at": "2023-10-04T21:17:58.854Z",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "exhibit": [
+      {
+        "id": "ea1fd8fe-0777-4a0b-890d-6f8928121d9e",
+        "name": "Ancient Civilizations",
+        "origin": "Egypt",
+        "age": 25139,
+        "description": "Explore the mysteries of ancient civilizations and their cultural heritage",
+        "created_at": "2023-10-05T05:59:26.460Z",
+        "updated_at": "2023-10-05T10:04:52.610Z",
+        "museum_id": "main_entity_pk"
+      },
+      {
+        "id": "2c421c01-0912-474d-a369-8d177ace3c52",
+        "name": "Contemporary Art",
+        "origin": "France",
+        "age": 96544,
+        "description": "Experience the creativity and expression of contemporary artists",
+        "created_at": "2023-10-05T04:06:19.127Z",
+        "updated_at": "2023-10-04T23:09:19.215Z",
+        "museum_id": "main_entity_pk"
+      },
+      {
+        "id": "86b34760-8da1-4894-9fc0-01851ebdf517",
+        "name": "Space Exploration",
+        "origin": "United States",
+        "age": 42805,
+        "description": "Embark on a journey through the wonders of space and the universe",
+        "created_at": "2023-10-05T02:10:03.798Z",
+        "updated_at": "2023-10-05T03:20:26.963Z",
+        "museum_id": "main_entity_pk"
+      },
+      {
+        "id": "a338680f-cfc2-4cc1-b011-63935c2f0afd",
+        "name": "Dinosaur Fossils",
+        "origin": "China",
+        "age": 6165,
+        "description": "Uncover the secrets of prehistoric creatures through fossil exhibits",
+        "created_at": "2023-10-04T14:04:18.622Z",
+        "updated_at": "2023-10-05T00:51:26.356Z",
+        "museum_id": "main_entity_pk"
+      },
+      {
+        "id": "17503646-9c00-4294-871b-c8b91e767689",
+        "name": "Innovative Technologies",
+        "origin": "Japan",
+        "age": 31457,
+        "description": "Discover the latest advancements in technology and its impact on society",
+        "created_at": "2023-10-04T23:55:43.695Z",
+        "updated_at": "2023-10-04T15:42:55.100Z",
+        "museum_id": "main_entity_pk"
+      }
+    ],
+    "visitor": [
+      {
+        "id": "a4d4e164-1294-4bbd-a0bd-a9eee433a19c",
+        "visit_date": "2023-10-05T07:32:37.734Z",
+        "feedback": "I was amazed by the exhibits!",
+        "rating": 59298,
+        "created_at": "2023-10-05T05:27:26.940Z",
+        "updated_at": "2023-10-04T15:24:45.142Z",
+        "exhibit_id": "2c421c01-0912-474d-a369-8d177ace3c52",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "324731a2-1658-4ef6-866a-89493b06ad2b",
+        "visit_date": "2023-10-05T08:16:04.627Z",
+        "feedback": "The museum staff was very knowledgeable and friendly",
+        "rating": 29523,
+        "created_at": "2023-10-05T00:44:31.002Z",
+        "updated_at": "2023-10-05T05:53:33.284Z",
+        "exhibit_id": "2c421c01-0912-474d-a369-8d177ace3c52",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "92583189-1f14-49c2-aabf-a2e04a5b5ae0",
+        "visit_date": "2023-10-05T01:37:47.161Z",
+        "feedback": "The museum provided a great learning experience for all ages",
+        "rating": 85208,
+        "created_at": "2023-10-04T17:37:04.546Z",
+        "updated_at": "2023-10-05T13:16:17.957Z",
+        "exhibit_id": "17503646-9c00-4294-871b-c8b91e767689",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2c35e074-da89-44ce-ace1-c18455c70c6f",
+        "visit_date": "2023-10-05T06:02:44.006Z",
+        "feedback": "The exhibits were well-curated and engaging",
+        "rating": 78622,
+        "created_at": "2023-10-05T11:08:42.561Z",
+        "updated_at": "2023-10-04T22:32:16.664Z",
+        "exhibit_id": "2c421c01-0912-474d-a369-8d177ace3c52",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9c9a1812-ef37-4d50-b6b1-4faba08766e9",
+        "visit_date": "2023-10-04T18:45:12.333Z",
+        "feedback": "I would highly recommend visiting this museum",
+        "rating": 77487,
+        "created_at": "2023-10-05T02:13:00.984Z",
+        "updated_at": "2023-10-04T20:36:52.615Z",
+        "exhibit_id": "ea1fd8fe-0777-4a0b-890d-6f8928121d9e",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "curator": [
+      {
+        "id": "eb4a2994-92e5-4560-a8cd-3674e60bb4fc",
+        "specialization": "Ancient Art",
+        "experience": 2983,
+        "biography": "With over 20 years of experience in curating ancient art collections",
+        "created_at": "2023-10-05T07:28:54.864Z",
+        "updated_at": "2023-10-05T06:04:44.501Z",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "97c958e5-9d6a-4d28-a428-d2fb87c797e9",
+        "specialization": "Space Science",
+        "experience": 2391,
+        "biography": "Passionate about exploring the mysteries of the universe and sharing knowledge",
+        "created_at": "2023-10-05T10:27:04.741Z",
+        "updated_at": "2023-10-05T11:53:55.382Z",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a03249b3-7a2d-46f7-84ae-7e01efb20292",
+        "specialization": "Paleontology",
+        "experience": 79582,
+        "biography": "Dedicated to preserving and studying prehistoric fossils",
+        "created_at": "2023-10-05T05:24:35.046Z",
+        "updated_at": "2023-10-05T02:27:22.294Z",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c4e7c711-88dd-4f79-a7e0-80f0c3ccc0e6",
+        "specialization": "Technology",
+        "experience": 90683,
+        "biography": "Fascinated by the evolution of technology and its impact on society",
+        "created_at": "2023-10-05T04:17:57.492Z",
+        "updated_at": "2023-10-05T03:55:55.407Z",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "38c3eea3-94b9-4db3-ae4f-b4134a26bc98",
+        "specialization": "Contemporary Art",
+        "experience": 16856,
+        "biography": "Committed to promoting contemporary art and supporting emerging artists",
+        "created_at": "2023-10-04T13:24:58.537Z",
+        "updated_at": "2023-10-05T03:39:58.956Z",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "1223a243-3696-49e2-9443-2e72c5237a67",
+        "email": "Lizeth_Miller@roq.tech",
+        "firstName": "Theodora",
+        "lastName": "Volkman",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/22914366",
+        "tenantId": null
+      },
+      {
+        "reference": "3024a2a1-8386-4945-a83b-5168cb902ca4",
+        "email": "Nova2@roq.tech",
+        "firstName": "Mauricio",
+        "lastName": "Schmitt",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/80.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ac320cfa-f1d8-4f3b-83d4-1298963d5c8d",
+        "email": "Juston60@roq.tech",
+        "firstName": "Tony",
+        "lastName": "Dickinson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/493.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "83b3bab5-5b85-4813-8e3d-1e408ca2d960",
+        "email": "Travis.Mertz34@roq.tech",
+        "firstName": "Aiden",
+        "lastName": "Bartell",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/74526015",
+        "tenantId": null
+      },
+      {
+        "reference": "3eb6d82d-8a09-4c36-83bc-8a95ebf93467",
+        "email": "Taya.Casper57@roq.tech",
+        "firstName": "Robb",
+        "lastName": "Parisian",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9157172",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "owner": [
+      {
+        "id": "7b8997e4-2d3b-4123-9cbb-74701857d06b",
+        "ownership_date": "2023-10-05T03:06:31.373Z",
+        "ownership_duration": 19175,
+        "ownership_status": "Private",
+        "created_at": "2023-10-04T14:32:48.207Z",
+        "updated_at": "2023-10-05T06:54:30.001Z",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3442c514-cc13-419f-b766-8e30432db0db",
+        "ownership_date": "2023-10-04T16:47:02.704Z",
+        "ownership_duration": 5032,
+        "ownership_status": "Public",
+        "created_at": "2023-10-05T03:58:46.023Z",
+        "updated_at": "2023-10-05T13:17:49.525Z",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6c1a2a03-d36c-4243-b2a8-e1c95f4c2a41",
+        "ownership_date": "2023-10-04T18:05:29.072Z",
+        "ownership_duration": 99368,
+        "ownership_status": "Non-profit",
+        "created_at": "2023-10-05T10:46:44.373Z",
+        "updated_at": "2023-10-04T19:42:28.025Z",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "74ee7e45-1d60-424b-b838-841f2d05fec7",
+        "ownership_date": "2023-10-04T22:32:36.580Z",
+        "ownership_duration": 36499,
+        "ownership_status": "Government",
+        "created_at": "2023-10-05T11:47:24.896Z",
+        "updated_at": "2023-10-04T17:14:38.688Z",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "805a7f0b-3fed-4783-b366-a401dee871ac",
+        "ownership_date": "2023-10-05T00:59:09.112Z",
+        "ownership_duration": 28395,
+        "ownership_status": "Corporate",
+        "created_at": "2023-10-04T20:29:49.415Z",
+        "updated_at": "2023-10-04T22:21:29.571Z",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "exhibit": [
+      {
+        "id": "1d564ca6-18c8-4a00-9a92-9f012be0c061",
+        "name": "Ancient Artifacts",
+        "origin": "Egypt",
+        "age": 29007,
+        "description": "Discover the secrets of ancient civilizations",
+        "created_at": "2023-10-05T03:50:09.585Z",
+        "updated_at": "2023-10-04T23:28:56.412Z",
+        "museum_id": "main_entity_pk"
+      },
+      {
+        "id": "16f8c5bb-f25c-406a-82b1-4222e323bdb2",
+        "name": "Dinosaur Fossils",
+        "origin": "China",
+        "age": 14502,
+        "description": "Witness the remains of prehistoric creatures",
+        "created_at": "2023-10-04T23:50:42.760Z",
+        "updated_at": "2023-10-04T18:30:41.542Z",
+        "museum_id": "main_entity_pk"
+      },
+      {
+        "id": "88910142-09d7-487d-ba03-767d27432e67",
+        "name": "Modern Art Masterpieces",
+        "origin": "Greece",
+        "age": 5109,
+        "description": "Appreciate the creativity of contemporary artists",
+        "created_at": "2023-10-04T17:06:12.155Z",
+        "updated_at": "2023-10-05T07:52:31.548Z",
+        "museum_id": "main_entity_pk"
+      },
+      {
+        "id": "928efaa1-8f2f-4dee-9303-03e6c149250b",
+        "name": "Space Exploration",
+        "origin": "Mexico",
+        "age": 12040,
+        "description": "Explore the mysteries of the universe",
+        "created_at": "2023-10-04T20:39:46.989Z",
+        "updated_at": "2023-10-04T15:17:08.327Z",
+        "museum_id": "main_entity_pk"
+      },
+      {
+        "id": "9f85a3e0-e108-46a4-92cb-55704bc64f64",
+        "name": "Innovations Through Time",
+        "origin": "India",
+        "age": 43479,
+        "description": "Learn about groundbreaking inventions",
+        "created_at": "2023-10-04T15:55:58.029Z",
+        "updated_at": "2023-10-05T09:28:09.569Z",
+        "museum_id": "main_entity_pk"
+      }
+    ],
+    "visitor": [
+      {
+        "id": "7935c8d5-9c47-4e2a-a70c-d72614546e96",
+        "visit_date": "2023-10-05T02:24:32.943Z",
+        "feedback": "Amazing experience!",
+        "rating": 15718,
+        "created_at": "2023-10-04T14:59:56.143Z",
+        "updated_at": "2023-10-05T10:09:27.805Z",
+        "exhibit_id": "1d564ca6-18c8-4a00-9a92-9f012be0c061",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bcbaa36f-23e7-4cf5-a7c8-a9f41c84874f",
+        "visit_date": "2023-10-04T20:35:38.050Z",
+        "feedback": "Highly recommended!",
+        "rating": 98484,
+        "created_at": "2023-10-04T14:38:58.827Z",
+        "updated_at": "2023-10-04T14:52:57.394Z",
+        "exhibit_id": "928efaa1-8f2f-4dee-9303-03e6c149250b",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "592a8fad-55fc-4491-a88e-a2f9ce028003",
+        "visit_date": "2023-10-04T15:52:46.461Z",
+        "feedback": "Impressive collection",
+        "rating": 43418,
+        "created_at": "2023-10-04T18:07:23.090Z",
+        "updated_at": "2023-10-04T23:37:14.500Z",
+        "exhibit_id": "9f85a3e0-e108-46a4-92cb-55704bc64f64",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9dd4352c-5310-4bda-8535-9d152b5736a8",
+        "visit_date": "2023-10-04T20:39:25.891Z",
+        "feedback": "Knowledgeable staff",
+        "rating": 77673,
+        "created_at": "2023-10-05T09:22:51.225Z",
+        "updated_at": "2023-10-05T03:53:04.987Z",
+        "exhibit_id": "88910142-09d7-487d-ba03-767d27432e67",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b3def62e-3e37-47b0-842d-7bae9500dab8",
+        "visit_date": "2023-10-05T01:26:12.416Z",
+        "feedback": "Will definitely visit again",
+        "rating": 46208,
+        "created_at": "2023-10-04T15:09:55.783Z",
+        "updated_at": "2023-10-04T18:08:00.818Z",
+        "exhibit_id": "88910142-09d7-487d-ba03-767d27432e67",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "curator": [
+      {
+        "id": "e83c0278-b977-4c91-bf54-2915ba75e17b",
+        "specialization": "Ancient History",
+        "experience": 2273,
+        "biography": "Passionate about preserving cultural heritage",
+        "created_at": "2023-10-05T01:58:56.569Z",
+        "updated_at": "2023-10-04T22:38:48.939Z",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "89a26dd6-410e-41ad-ada5-7f5a565842e2",
+        "specialization": "Contemporary Art",
+        "experience": 33918,
+        "biography": "Dedicated to promoting artistic expression",
+        "created_at": "2023-10-05T07:14:03.388Z",
+        "updated_at": "2023-10-04T13:58:06.586Z",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e4dc22b8-c368-4b93-9a63-2e8937ead032",
+        "specialization": "Natural Sciences",
+        "experience": 52098,
+        "biography": "Fascinated by the wonders of the natural world",
+        "created_at": "2023-10-04T14:43:30.585Z",
+        "updated_at": "2023-10-05T00:39:41.294Z",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f3e7b2e6-6995-4e75-a2ac-8b96d9b2661b",
+        "specialization": "Anthropology",
+        "experience": 6408,
+        "biography": "Committed to understanding human evolution",
+        "created_at": "2023-10-05T00:05:11.993Z",
+        "updated_at": "2023-10-05T08:06:52.116Z",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0292c6d4-a1a5-423d-81b4-82ff21f3b75c",
+        "specialization": "Archaeology",
+        "experience": 90181,
+        "biography": "Enthusiastic about uncovering ancient civilizations",
+        "created_at": "2023-10-05T09:58:15.896Z",
+        "updated_at": "2023-10-04T23:56:27.084Z",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "423687f2-79c1-44e9-95ae-d020546e4919",
+        "email": "Hillard.Hauck@roq.tech",
+        "firstName": "Susana",
+        "lastName": "Funk",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/62370108",
+        "tenantId": null
+      },
+      {
+        "reference": "aa67a353-b624-408e-915b-54ec95fed88f",
+        "email": "Alanis47@roq.tech",
+        "firstName": "Icie",
+        "lastName": "Cummerata",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/33332233",
+        "tenantId": null
+      },
+      {
+        "reference": "cf40450d-7fbd-4bcb-ab9a-8016f6249f7d",
+        "email": "Brianne.Schaefer18@roq.tech",
+        "firstName": "Elena",
+        "lastName": "Kozey",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/99028410",
+        "tenantId": null
+      },
+      {
+        "reference": "d3d9f077-c819-4b96-bcec-8cb3e5d60c5e",
+        "email": "Kenya75@roq.tech",
+        "firstName": "Fermin",
+        "lastName": "Huels",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/37734055",
+        "tenantId": null
+      },
+      {
+        "reference": "cdd44dc7-d780-4184-b04c-2c511060c5d8",
+        "email": "Connie43@roq.tech",
+        "firstName": "Lilla",
+        "lastName": "Gusikowski",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/76180165",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "owner": [
+      {
+        "id": "a858535d-4e38-4294-9d9f-855f265d280d",
+        "ownership_date": "2023-10-04T14:50:40.551Z",
+        "ownership_duration": 64486,
+        "ownership_status": "Private",
+        "created_at": "2023-10-04T15:36:49.503Z",
+        "updated_at": "2023-10-05T01:23:30.968Z",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cc921ad0-21f8-42f1-b74e-50d3eb118100",
+        "ownership_date": "2023-10-05T10:59:00.612Z",
+        "ownership_duration": 48186,
+        "ownership_status": "Public",
+        "created_at": "2023-10-04T16:10:37.555Z",
+        "updated_at": "2023-10-05T04:15:52.040Z",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fc5bdc16-0608-425b-93e0-a26468d66c4e",
+        "ownership_date": "2023-10-04T21:23:27.283Z",
+        "ownership_duration": 56631,
+        "ownership_status": "Non-profit",
+        "created_at": "2023-10-05T09:02:19.462Z",
+        "updated_at": "2023-10-05T05:52:46.145Z",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9f56e25b-dc2e-4966-aad9-e4662fe1b933",
+        "ownership_date": "2023-10-04T18:43:08.814Z",
+        "ownership_duration": 70202,
+        "ownership_status": "Government",
+        "created_at": "2023-10-04T14:18:10.521Z",
+        "updated_at": "2023-10-05T00:29:34.825Z",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6223af1d-3fed-416b-b998-523f9cb1f495",
+        "ownership_date": "2023-10-04T13:49:09.471Z",
+        "ownership_duration": 57720,
+        "ownership_status": "Corporate",
+        "created_at": "2023-10-05T06:01:34.210Z",
+        "updated_at": "2023-10-05T02:07:57.619Z",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "exhibit": [
+      {
+        "id": "a0b88d83-c3d7-474a-be5c-6ab6d0c49efc",
+        "name": "Ancient Civilizations",
+        "origin": "Egypt",
+        "age": 83654,
+        "description": "Explore the ancient civilizations of Egypt and Mesopotamia",
+        "created_at": "2023-10-04T21:50:27.003Z",
+        "updated_at": "2023-10-04T22:01:50.246Z",
+        "museum_id": "main_entity_pk"
+      },
+      {
+        "id": "14b1b174-6bcd-4ecd-9e9c-93dd97442b0a",
+        "name": "Modern Masterpieces",
+        "origin": "France",
+        "age": 45487,
+        "description": "Admire the works of Picasso, Monet, and Van Gogh",
+        "created_at": "2023-10-04T22:53:46.623Z",
+        "updated_at": "2023-10-04T20:40:37.218Z",
+        "museum_id": "main_entity_pk"
+      },
+      {
+        "id": "0ad1424a-f10e-4579-b3bb-8cb8ecaae7e0",
+        "name": "Dinosaur Discovery",
+        "origin": "United States",
+        "age": 52140,
+        "description": "Discover the world of dinosaurs and their prehistoric habitats",
+        "created_at": "2023-10-04T21:55:14.701Z",
+        "updated_at": "2023-10-04T18:15:50.074Z",
+        "museum_id": "main_entity_pk"
+      },
+      {
+        "id": "c622e188-50c0-4a1b-a620-09d04608acea",
+        "name": "Space Exploration",
+        "origin": "China",
+        "age": 19077,
+        "description": "Embark on a journey through the cosmos and learn about space exploration",
+        "created_at": "2023-10-04T13:37:44.461Z",
+        "updated_at": "2023-10-04T14:48:55.696Z",
+        "museum_id": "main_entity_pk"
+      },
+      {
+        "id": "ce39453e-ea16-445c-b1d3-aea2b4c42640",
+        "name": "Cultural Diversity",
+        "origin": "India",
+        "age": 40514,
+        "description": "Celebrate the rich cultural diversity of different communities around the world",
+        "created_at": "2023-10-05T09:41:43.593Z",
+        "updated_at": "2023-10-05T08:19:49.789Z",
+        "museum_id": "main_entity_pk"
+      }
+    ],
+    "visitor": [
+      {
+        "id": "ace12a5e-107b-4ec5-ac8c-48298a2fd318",
+        "visit_date": "2023-10-05T00:49:00.425Z",
+        "feedback": "I had a great experience at the museum!",
+        "rating": 67851,
+        "created_at": "2023-10-04T23:06:21.396Z",
+        "updated_at": "2023-10-05T05:05:01.549Z",
+        "exhibit_id": "0ad1424a-f10e-4579-b3bb-8cb8ecaae7e0",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f24d56d3-394f-471d-9e07-280f5122ad05",
+        "visit_date": "2023-10-04T14:10:30.256Z",
+        "feedback": "The exhibits were informative and engaging",
+        "rating": 72627,
+        "created_at": "2023-10-04T17:10:59.960Z",
+        "updated_at": "2023-10-05T09:10:43.139Z",
+        "exhibit_id": "14b1b174-6bcd-4ecd-9e9c-93dd97442b0a",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b8da8d10-2325-41bc-88a5-30501e686fa9",
+        "visit_date": "2023-10-04T15:29:38.977Z",
+        "feedback": "The staff was friendly and knowledgeable",
+        "rating": 70704,
+        "created_at": "2023-10-04T13:25:17.654Z",
+        "updated_at": "2023-10-04T17:32:15.394Z",
+        "exhibit_id": "a0b88d83-c3d7-474a-be5c-6ab6d0c49efc",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "127d8a4e-17c5-42e9-8c60-1347180a37ca",
+        "visit_date": "2023-10-05T09:41:23.185Z",
+        "feedback": "I learned so much during my visit",
+        "rating": 41271,
+        "created_at": "2023-10-04T15:21:42.386Z",
+        "updated_at": "2023-10-04T22:07:55.484Z",
+        "exhibit_id": "ce39453e-ea16-445c-b1d3-aea2b4c42640",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "16dd8250-af7c-4761-a026-099736fc09db",
+        "visit_date": "2023-10-05T04:33:43.331Z",
+        "feedback": "I would highly recommend this museum to others",
+        "rating": 94374,
+        "created_at": "2023-10-04T13:53:22.597Z",
+        "updated_at": "2023-10-04T23:24:38.469Z",
+        "exhibit_id": "ce39453e-ea16-445c-b1d3-aea2b4c42640",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "curator": [
+      {
+        "id": "99466e7c-93a5-470f-b881-cf654b6013dc",
+        "specialization": "Ancient Art",
+        "experience": 9281,
+        "biography": "I have dedicated my career to studying and preserving ancient art",
+        "created_at": "2023-10-05T02:02:14.470Z",
+        "updated_at": "2023-10-05T09:43:11.256Z",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "86972c1e-78bc-4f1d-933d-ba982aacce87",
+        "specialization": "Modern Sculpture",
+        "experience": 57585,
+        "biography": "I am passionate about contemporary sculpture and its impact on society",
+        "created_at": "2023-10-05T05:05:15.762Z",
+        "updated_at": "2023-10-04T15:52:11.260Z",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cfaeb983-6b0f-43f3-aaeb-d1e081228886",
+        "specialization": "Paleontology",
+        "experience": 83126,
+        "biography": "My expertise lies in the field of paleontology and the study of dinosaurs",
+        "created_at": "2023-10-04T19:15:09.365Z",
+        "updated_at": "2023-10-04T15:22:20.432Z",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "48dcce02-bab1-4265-9b75-ab43288f960e",
+        "specialization": "Astronomy",
+        "experience": 7840,
+        "biography": "I have always been fascinated by the mysteries of the universe and love sharing my knowledge with others",
+        "created_at": "2023-10-04T15:51:10.415Z",
+        "updated_at": "2023-10-04T15:17:52.202Z",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "92bc3337-e33b-4f2b-81b2-475fecbcfa94",
+        "specialization": "Ethnography",
+        "experience": 35401,
+        "biography": "I am committed to promoting cultural understanding and appreciation through ethnographic research",
+        "created_at": "2023-10-04T17:43:15.181Z",
+        "updated_at": "2023-10-04T13:46:45.646Z",
+        "museum_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "9fdf2628-19f4-4ef4-ad20-9bc14fafc9ab",
+        "email": "Eleanore.Breitenberg@roq.tech",
+        "firstName": "Jeramy",
+        "lastName": "Dickens",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/55.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ed1c8f98-f79e-42da-8d2a-b9ad4c457b7b",
+        "email": "Alexys_Hegmann@roq.tech",
+        "firstName": "Conner",
+        "lastName": "O'Kon",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/3.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "16edacb9-f06c-456b-b622-f7281a22797e",
+        "email": "Judah.Schamberger@roq.tech",
+        "firstName": "Trystan",
+        "lastName": "Hagenes",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/76652400",
+        "tenantId": null
+      },
+      {
+        "reference": "d3535e15-208e-4120-af09-10d0689f42f6",
+        "email": "Chad75@roq.tech",
+        "firstName": "Kaley",
+        "lastName": "Kertzmann",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/98069132",
+        "tenantId": null
+      },
+      {
+        "reference": "69b0fca0-18b3-40af-bf66-59138ed39790",
+        "email": "Davion16@roq.tech",
+        "firstName": "Dana",
+        "lastName": "Conn",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/22.jpg",
+        "tenantId": null
+      }
+    ]
+  }
+]

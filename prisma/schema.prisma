@@ -1,0 +1,97 @@
+generator client {
+  provider = "prisma-client-js"
+  previewFeatures = ["clientExtensions", "postgresqlExtensions"]
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+  extensions      = [pgcrypto]
+}
+
+model curator {
+  id             String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  user_id        String   @db.Uuid
+  museum_id      String   @db.Uuid
+  specialization String   @db.VarChar(255)
+  experience     Int
+  biography      String?  @db.VarChar(255)
+  created_at     DateTime @default(now()) @db.Timestamp(6)
+  updated_at     DateTime @default(now()) @db.Timestamp(6)
+  museum         museum   @relation(fields: [museum_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  user           user     @relation(fields: [user_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+}
+
+model exhibit {
+  id          String    @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  name        String    @db.VarChar(255)
+  origin      String    @db.VarChar(255)
+  age         Int
+  description String?   @db.VarChar(255)
+  museum_id   String    @db.Uuid
+  created_at  DateTime  @default(now()) @db.Timestamp(6)
+  updated_at  DateTime  @default(now()) @db.Timestamp(6)
+  museum      museum    @relation(fields: [museum_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  visitor     visitor[]
+}
+
+model museum {
+  id             String    @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  description    String?   @db.VarChar(255)
+  location       String?   @db.VarChar(255)
+  opening_hours  String?   @db.VarChar(255)
+  contact_number String?   @db.VarChar(255)
+  name           String    @db.VarChar(255)
+  created_at     DateTime  @default(now()) @db.Timestamp(6)
+  updated_at     DateTime  @default(now()) @db.Timestamp(6)
+  user_id        String    @db.Uuid
+  tenant_id      String    @db.VarChar(255)
+  curator        curator[]
+  exhibit        exhibit[]
+  user           user      @relation(fields: [user_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  owner          owner[]
+  visitor        visitor[]
+}
+
+model owner {
+  id                 String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  user_id            String   @db.Uuid
+  museum_id          String   @db.Uuid
+  ownership_date     DateTime @db.Timestamp(6)
+  ownership_duration Int
+  ownership_status   String   @db.VarChar(255)
+  created_at         DateTime @default(now()) @db.Timestamp(6)
+  updated_at         DateTime @default(now()) @db.Timestamp(6)
+  museum             museum   @relation(fields: [museum_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  user               user     @relation(fields: [user_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+}
+
+model user {
+  id          String    @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  email       String    @unique @db.VarChar(255)
+  firstName   String?   @db.VarChar(255)
+  lastName    String?   @db.VarChar(255)
+  roq_user_id String    @db.VarChar(255)
+  tenant_id   String    @db.VarChar(255)
+  created_at  DateTime  @default(now()) @db.Timestamp(6)
+  updated_at  DateTime  @default(now()) @db.Timestamp(6)
+  curator     curator[]
+  museum      museum[]
+  owner       owner[]
+  visitor     visitor[]
+}
+
+model visitor {
+  id         String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  user_id    String   @db.Uuid
+  visit_date DateTime @db.Timestamp(6)
+  museum_id  String   @db.Uuid
+  exhibit_id String   @db.Uuid
+  feedback   String?  @db.VarChar(255)
+  rating     Int?
+  created_at DateTime @default(now()) @db.Timestamp(6)
+  updated_at DateTime @default(now()) @db.Timestamp(6)
+  exhibit    exhibit  @relation(fields: [exhibit_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  museum     museum   @relation(fields: [museum_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  user       user     @relation(fields: [user_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+}
